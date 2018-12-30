@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Random</title>
+	<meta charset="utf-8">
+	<style>
+
+.aleatoire {
+	background-color: #ecf0f1;
+	color: #34495e;
+	width: 280px;
+	
+	border-radius: 40px;
+}
+td:nth-child(2) {
+	color: #2ecc71;
+	padding: 20px;
+	font-family: cursive;
+}
+
+td:nth-child(0) {
+	border-radius: 40px;
+
+}
+td>img {
+	border-top-left-radius: 20px;
+	border-bottom-left-radius:; 20px;
+
+}
+#titre {
+	background-color: #3498db;
+
+}
+</style>
+</head>
+<body>
+<center>
+	<div class="container">
+<div class="aleatoire">
+<table>
+	<tr>
+		<td colspan="2"> <img src='{{weather[random].img}}' width="200px"/></td>
+	</tr>
+	<td> <h3>{{weather[random].name}}</h3></td>
+	<td><h3>{{weather[random].C}} &deg;</h3></td>
+
+</table>
+<h3 id="titre">Metéo</h3>
+</div>
+</div>
+</center>
+
+</body>
+</html>

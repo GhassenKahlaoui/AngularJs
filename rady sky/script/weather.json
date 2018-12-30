@@ -1,0 +1,31 @@
+
+[
+
+	{"name": "jendouba","C": 40 , "img":"./img/Ville/Jendouba.png"},
+	{"name": "kef","C": 50 , "img":"./img/Ville/kef.jpg"},
+	{"name": "Seliana","C": 30 , "img":"./img/Ville/Seliana.png"}, 
+	{"name":"Tunis" , "C": 20 , "img":"./img/Ville/Tunis.png"},
+	{"name":"Ariana","C":36 , "img":"./img/Ville/Ariana.jpg"}, 
+	{"name":"Nabeul","C":10 , "img":"./img/Ville/Nabeul.png"},
+	{"name":"Sousse","C":30 , "img":"./img/Ville/Sousse.png"},
+	{"name":"Monastir","C":25, "img":"./img/Ville/Monastir.png"},
+	{"name":"Sfax","C":15 , "img":"./img/Ville/Sfax.png"},
+	{"name":"Gassrine","C":2 , "img":"./img/Ville/Gassrine.jpg"},
+	{"name":"Gabes","C":55 , "img":"./img/Ville/Gabes.png"},
+	{"name":"Manouba","C":65, "img":"./img/Ville/Manouba.png"},
+	{"name":"Ben Arous","C":10 ,"img":"./img/Ville/BenArous.jpg"},
+	{"name":"Zaghouan","C":45 , "img":"./img/Ville/Zaghouan.png"},
+	{"name":"Hammamet","C":12 , "img":"./img/Ville/Hammamet.png"},
+	{"name":"Benzart","C":15 , "img":"./img/Ville/Bizerte.jpg"},
+	{"name":"Tatawin","C":25 , "img":"./img/Ville/tatawin.jpg" },
+	{"name":"Gbeli","C":25 , "img":"./img/Ville/Gbeli.png"},
+	{"name":"Kairaouen","C":12 , "img":"./img/Ville/kairawen.png" },
+	{"name":"Mednine","C":22 , "img":"./img/Ville/Mednine.jpg"},
+	{"name":"Mahdia","C":15 , "img":"./img/Ville/Mahdia.png"},
+	{"name":"Beja","C":17 , "img":"./img/Ville/Beja.png"},
+	{"name":"Gafsa","C":15 , "img":"./img/Ville/Gafsa.png"},
+	{"name":"Sidi Bouzid","C":18 , "img":"./img/Ville/SidiBouzid.jpg"}
+	
+		
+
+]

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Contact</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+	<meta charset="utf-8">
+<script src='script/angular.min.js'></script>
+<script src="script/Acceuil.js"></script>
+<link rel="stylesheet" type="text/css" href="./style/Contact.css">
+</head>
+<body>
+
+<div class="container-fluid">
+	
+<form name="contactform" novalidate>
+	
+	<div claass="form-group">
+		<input type="email" name="email" ng-model="Contact.email" placeholder="donner Votre E-mail"class="form-control" size=60px ng-required="true">
+		<div ng-show="contactform.email.$touched && contactform.email.$invalid">
+			<small style='background-color:#e74c3c;color:white;display: block;text-align: center'>Enter a valid E-mail</small>
+
+		</div>
+		<input type="text" name="subject" ng-model="Contact.subject" placeholder="donner le sujet "class="form-control" size=60px ng-required="true">
+		<div ng-show="contactform.subject.$touched && contactform.subject.$invalid">
+			<small style='background-color:#e74c3c;color:white;display: block;text-align: center'>Entrer Sujet Valide</small>
+
+		</div>
+		<textarea  name="msg" ng-model="Contact.msg"placeholder="donner Votre E-mail"class="form-control" ng-required="true"></textarea>
+		<input type="submit" class="form-control" value='Envoyer' ng-disabled="contactform.$invalid" />
+	</div>
+</form>
+</div>
+s
+</body>
+</html>
